@@ -19,8 +19,8 @@ double empirical_fp_rate(size_t m, int k, size_t n, size_t queries, uint64_t has
 int main(int argc, char** argv) {
     
     // Définir les paramètres d'étude fixes
-    const size_t M_TEST = 1000;
-    const size_t N_TEST = 500;
+    const size_t M_TEST = 50000;
+    const size_t N_TEST = 45000;
     
     const size_t QUERIES = 500000;
     const int REPEATS = 1;
